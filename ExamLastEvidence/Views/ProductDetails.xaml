@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamLastEvidence.Views.ProductDetails"
+             Title="Product Details" Shell.TitleColor="White" Shell.BackgroundColor="Blue" Shell.ForegroundColor="White">
+    <ScrollView>
+        <VerticalStackLayout Padding="5">
+            <Label 
+        Text="Welcome to .NET MAUI!"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
+            <Grid>
+                <Grid.RowDefinitions>
+                    
+                    <RowDefinition  Height="50" />
+                    <RowDefinition Height="70" />
+                    <RowDefinition  Height="50" />
+                    <RowDefinition  Height="120" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label  VerticalOptions="Center" Text="Product name" Grid.Row="0" Grid.Column="0"/>
+                <Label VerticalOptions="Center" x:Name="lblName" Grid.Row="0" Grid.Column="1" />
+                <Label VerticalOptions="Center" Text="Decsription" Grid.Row="1" Grid.Column="0"/>
+                <Label VerticalOptions="Center" x:Name="lblDesc" Grid.Row="1" Grid.Column="1" />
+                <Label VerticalOptions="Center" Text="Price" Grid.Row="2" Grid.Column="0"/>
+                <Label VerticalOptions="Center" x:Name="lblPrice" Grid.Row="2" Grid.Column="1" />
+                <Label VerticalOptions="Center" Text="Picture" Grid.Row="3" Grid.Column="0"/>
+                <Image x:Name="impPic" WidthRequest="100" HeightRequest="100"  Grid.Row="3" Grid.Column="1" />
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

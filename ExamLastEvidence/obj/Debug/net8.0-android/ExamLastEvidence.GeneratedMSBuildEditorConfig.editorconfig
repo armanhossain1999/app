@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ExamLastEvidence
+build_property.ProjectDir = C:\Users\Arman Hossain\Downloads\Class 05\ExamLastEvidence_Solution\ExamLastEvidence\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Arman Hossain/Downloads/Class 05/ExamLastEvidence_Solution/ExamLastEvidence/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamLastEvidence.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Arman Hossain/Downloads/Class 05/ExamLastEvidence_Solution/ExamLastEvidence/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamLastEvidence.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Arman Hossain/Downloads/Class 05/ExamLastEvidence_Solution/ExamLastEvidence/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamLastEvidence.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Arman Hossain/Downloads/Class 05/ExamLastEvidence_Solution/ExamLastEvidence/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamLastEvidence.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Arman Hossain/Downloads/Class 05/ExamLastEvidence_Solution/ExamLastEvidence/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamLastEvidence.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Arman Hossain/Downloads/Class 05/ExamLastEvidence_Solution/ExamLastEvidence/Views/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamLastEvidence.Views.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CartPage.xaml
+
+[C:/Users/Arman Hossain/Downloads/Class 05/ExamLastEvidence_Solution/ExamLastEvidence/Views/ProductDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamLastEvidence.Views.ProductDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductDetails.xaml
+
+[C:/Users/Arman Hossain/Downloads/Class 05/ExamLastEvidence_Solution/ExamLastEvidence/Views/ProductListContenPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ExamLastEvidence.Views.ProductListContenPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductListContenPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductListContenPage.xaml

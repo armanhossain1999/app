@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExamLastEvidence.Views.ProductListContenPage"
+             Title="Product List "  Shell.TitleColor="White" Shell.BackgroundColor="Blue" Shell.ForegroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="ToolbarItem_Clicked" Text="Add" Order="Primary"  IconImageSource="{FontImage Glyph='&#x1F6D2;', Size=22}"></ToolbarItem>
+        <ToolbarItem Order="Secondary" x:Name="cartText" Text="0 item in cart" ></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <VerticalStackLayout>
+            <VerticalStackLayout>
+                <SearchBar x:Name="searchBar" Placeholder="Search items..."  SearchButtonPressed="SearchBar_SearchButtonPressed" />
+                <Button Text="Reset"  ImageSource="{FontImage Glyph='&#10226;', Size=22, Color=White}" Clicked="Button_Clicked"  />
+            </VerticalStackLayout>
+            <CollectionView ItemsSource="{Binding .}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="8" CornerRadius="8" BorderColor="LightSlateGray">
+                            <HorizontalStackLayout Padding="10" Margin="10" VerticalOptions="Center">
+
+
+                                <Image
+                                        Source="{Binding RemotePictureUrl}"
+                                        SemanticProperties.Description=""
+                                        WidthRequest="100"
+                                        HeightRequest="100"
+                                        HorizontalOptions="Center" />
+
+
+                                <VerticalStackLayout VerticalOptions="Center" Margin="20,5,5,5">
+                                    <Label Text="{Binding Name}" />
+                                    <Label Text="{Binding Price}" />
+                                    <Button x:Name="AddToCart" Clicked="AddToCart_Clicked" CommandParameter="{Binding Id}"  BorderWidth="1" Margin="0, 10, 0, 0"   ImageSource="{FontImage Glyph='&#128722;', Size=22, Color=White}" Text="Add to Cart" HorizontalOptions="End">
+                                        
+                                    </Button>
+                                    
+                                </VerticalStackLayout>
+
+
+                            </HorizontalStackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer x:Name="ProductTapItem" Tapped="ProductTapItem_Tapped" />
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                        
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

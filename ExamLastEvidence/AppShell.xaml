@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ExamLastEvidence.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ExamLastEvidence"
+    xmlns:v="clr-namespace:ExamLastEvidence.Views"
+    Shell.FlyoutBehavior="Flyout"
+    Title="ExamLastEvidence" Shell.BackgroundColor="Blue" Shell.ForegroundColor="White">
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+                  HeightRequest="128">
+                <Image Aspect="AspectFill"
+                       Source="background.jpeg"
+                       Opacity="0.6" />
+                <Label Text="MauiApp"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <ShellContent
+        Title="Home"
+        Icon="home.png"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+    Title="Products"
+    Icon="products.png"
+    ContentTemplate="{DataTemplate v:ProductListContenPage}"
+    Route="ProductList" />
+
+</Shell>
